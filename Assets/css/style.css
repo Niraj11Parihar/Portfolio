@@ -1,0 +1,97 @@
+.padding{
+    padding: 80px 0px;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+
+
+/* resume starst  */
+
+.resume .resume-title::before {
+    content: "";
+    position: absolute;
+    left: -10.8px;
+
+    width: 20px;
+    height: 20px;
+    border: 2px solid red;
+    border-radius: 50px;
+    background-color: #f5f8fd;
+}
+
+/* resume ends  */
+
+/* services starts  */
+
+.cards{
+ overflow: hidden;  
+ margin-bottom: 10px;
+}
+
+.cards .rover{
+    top: -100%;
+    height: 100%;
+    transition: all linear 0.2s;
+}
+
+.cards:hover .rover{
+    transform: translateY(100%);
+    transition: all linear 0.4s;
+}
+
+/* services ends  */
+
+/* portfolio strats  */
+
+
+.p-img{
+    overflow: hidden;
+    margin: 10px 0px 10px 0px;
+}
+
+.p-img:hover{
+    transform: scale(1.2);
+    transition: all linear 0.5s;
+}
+
+.tab-content .content-1{
+     top: -50%;
+     height:50%;
+     background-color:black;
+     opacity: 0.4;
+    transition: all linear 0.5s;
+}
+
+.tab-content .p-img:hover .content-1{
+    transform: translateY(100%);
+    transition: all linear 0.5s;
+}
+
+.tab-content .content-2{
+     bottom: -50%;
+     height:50%;
+     background-color:black;
+     opacity: 0.4;
+     transition: all linear 0.5s;
+}
+
+.tab-content .p-img:hover .content-2{
+    transform: translateY(-100%);
+    transition: all linear 0.5s;
+}
+
+
+
+/* portfolio ends  */
+
+/* contact starts  */
+
+ .contact-details  a:hover i{
+    color:aliceblue;
+    transition: 0.5s linear;
+
+}
+
+/* contact ends  */
